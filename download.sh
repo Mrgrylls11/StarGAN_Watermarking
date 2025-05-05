@@ -9,6 +9,5 @@ if [ $FILE == "celeba" ]; then
     rm $ZIP_FILE
 
 else
-    echo "Available arguments are celeba, pretrained-celeba-128x128, pretrained-celeba-256x256."
     exit 1
 fi
