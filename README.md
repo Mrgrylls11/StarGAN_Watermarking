@@ -1,3 +1,4 @@
+To Train the model the attributes are: 
 python main.py --mode train --dataset CelebA \
                --image_size 128 --batch_size 1 \
                --num_iters 10000 --model_save_step 2000 --sample_step 500 \
